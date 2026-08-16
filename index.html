@@ -31,10 +31,12 @@ body {
 .form-container {
     width: 210mm;
     height: 297mm;
+
     margin: 10px auto;
+
     background: #fff;
 
-    padding: 9mm 10mm;
+    padding: 8mm 10mm;
 
     box-shadow: 0 0 15px rgba(0,0,0,0.15);
 
@@ -48,7 +50,7 @@ body {
 .header {
     position: relative;
 
-    height: 115px;
+    height: 120px;
 
     background: #f3f7fb;
 
@@ -69,14 +71,16 @@ body {
 
     font-size: 17px;
 
-    line-height: 1.5;
+    line-height: 1.55;
 }
 
 .info p {
     margin: 0;
 }
 
-/* الشعار */
+/* ==============================
+   الشعار
+============================== */
 
 .logo {
     position: absolute;
@@ -87,17 +91,19 @@ body {
     transform: translateX(-50%);
 
     z-index: 5;
+
+    text-align: center;
 }
 
 .logo img {
-    width: 74px;
-    height: 74px;
+    width: 76px;
+    height: 76px;
 
     object-fit: contain;
 }
 
 /* ==============================
-   الصورة
+   صورة المعلم
 ============================== */
 
 .photo-area {
@@ -153,13 +159,13 @@ body {
 }
 
 /* ==============================
-   العنوان
+   عنوان الاستمارة
 ============================== */
 
 h2 {
     text-align: center;
 
-    margin: 8px 0 8px;
+    margin: 7px 0 7px;
 
     font-size: 22px;
 
@@ -169,11 +175,12 @@ h2 {
 }
 
 /* ==============================
-   الأقسام
+   عناوين الأقسام
 ============================== */
 
 .section-title {
-    margin-top: 6px;
+    margin-top: 7px;
+
     margin-bottom: 5px;
 
     padding: 4px 9px;
@@ -194,9 +201,11 @@ h2 {
 .row {
     display: flex;
 
-    gap: 9px;
+    flex-direction: row;
 
-    margin-bottom: 6px;
+    gap: 10px;
+
+    margin-bottom: 7px;
 
     width: 100%;
 }
@@ -212,7 +221,7 @@ h2 {
 }
 
 .field.small {
-    flex: 0.7;
+    flex: 0.75;
 }
 
 /* ==============================
@@ -253,14 +262,16 @@ textarea {
 }
 
 input {
-    height: 33px;
+    height: 34px;
 }
 
 textarea {
-    height: 48px;
+    height: 52px;
 
     resize: none;
 }
+
+/* الحقول غير الصحيحة */
 
 .invalid {
     border: 2px solid #dc3545 !important;
@@ -273,7 +284,7 @@ textarea {
 ============================== */
 
 .address-row {
-    margin-bottom: 6px;
+    margin-bottom: 7px;
 }
 
 /* ==============================
@@ -289,11 +300,11 @@ textarea {
 
     border-top: 1px solid #777;
 
-    margin-top: 7px;
+    margin-top: 8px;
 
     padding-top: 5px;
 
-    height: 72px;
+    height: 76px;
 }
 
 .qr-info {
@@ -303,8 +314,8 @@ textarea {
 }
 
 #qr-canvas {
-    width: 65px;
-    height: 65px;
+    width: 68px;
+    height: 68px;
 }
 
 /* ==============================
@@ -316,7 +327,7 @@ textarea {
 
     justify-content: space-around;
 
-    margin-top: 9px;
+    margin-top: 11px;
 
     text-align: center;
 
@@ -328,7 +339,7 @@ textarea {
 }
 
 .signature-line {
-    margin-top: 18px;
+    margin-top: 20px;
 
     border-bottom: 1px dotted #222;
 }
@@ -433,6 +444,8 @@ textarea {
 
     .row {
         flex-direction: row;
+
+        gap: 7px;
     }
 
     input {
@@ -472,7 +485,7 @@ textarea {
 
         margin: 0;
 
-        padding: 9mm 10mm;
+        padding: 8mm 10mm;
 
         box-shadow: none;
 
